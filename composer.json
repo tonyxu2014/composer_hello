@@ -1,0 +1,21 @@
+{
+    "name": "tonyxu2014/hello",
+    "description": "hello world",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xudengtang",
+            "email": "xudengtang@km.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\First\\": "src/HelloWorld/First"
+        }
+    }
+}
